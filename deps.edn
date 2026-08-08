@@ -5,7 +5,7 @@
  ;; request, and how a response becomes a result.
  :deps {io.github.kotoba-lang/connector
         {:git/url "https://github.com/kotoba-lang/connector"
-         :git/sha "189dd753d7f3d7fc0e1ce00bcf3ff52ed9621da6"}}
+         :git/sha "7182c84f68a61d91b2d783331a118022c1ab51de"}}
  :aliases
  {:test {:extra-paths ["test"]
          :extra-deps {io.github.cognitect-labs/test-runner
