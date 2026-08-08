@@ -11,7 +11,7 @@
   "https://www.googleapis.com/auth/calendar.readonly"
   "openid"],
  :authority
- "90-docs/adr/2608094000-connector-plane-one-repo-per-connector.edn",
+ "90-docs/adr/2608097000-connector-plane-one-repo-per-connector.edn",
  :connector/namespace "google-calendar.connector",
  :connector/auth-kind :oauth2,
  :connector/auth-pkce? true,

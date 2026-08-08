@@ -12,6 +12,6 @@
             (pp/pprint (decl/declaration c/provider
                                          {:namespace "google-calendar.connector"
                                           :var "provider"
-                                          :authority "90-docs/adr/2608094000-connector-plane-one-repo-per-connector.edn"})))]
+                                          :authority "90-docs/adr/2608097000-connector-plane-one-repo-per-connector.edn"})))]
   (.writeFileSync fs "connector.edn" edn)
   (println "wrote" (count edn) "bytes to connector.edn"))
