@@ -68,13 +68,13 @@ arguments; `connector.invoke` attaches the Authorization header.
 **generated**, and the test suite fails if the committed file has drifted:
 
 ```sh
-nbb --classpath "src:../connector/src" emit-connector-edn.cljs
+nbb --classpath "src:../connector/src" emit-connector-edn.cljk
 ```
 
 ## Tests
 
 ```sh
-nbb --classpath "src:test:../connector/src" run-tests.cljs   # 12 tests, 43 assertions
+nbb --classpath "src:test:../connector/src" run-tests.cljk   # 12 tests, 43 assertions
 clojure -M:test
 ```
 
