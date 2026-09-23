@@ -1,6 +1,6 @@
 #!/usr/bin/env kbb
 ;; kbb --backend sci --classpath "src:test:../connector/src" run-tests.cljk
-(require '[clojure.test :as t] 'google-calendar.connector-test)
+(require '[kotoba.test :as t] 'google-calendar.connector-test)
 
 ;; The exit code comes from the :end-run-tests report hook, NOT from the return
 ;; value of `run-tests`. Under nbb that value is nil, so the previous spelling
